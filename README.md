@@ -34,6 +34,7 @@
 | inactiveColor  | inactive tab color | String  | #999999  |
 
 - Events
+
 |  props   | description  | return |
 |  ----  | ----  | ----  | ----  |
 | on-change  | click tab event | active tab index  |
