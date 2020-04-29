@@ -1,6 +1,6 @@
 {
   "name": "vue-light-tabs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vue tabs component",
   "main": "dist/light-tabs.umd.js",
   "module": "dist/light-tabs.esm.js",

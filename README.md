@@ -14,7 +14,7 @@
 ```
 
 ```javascript
-  import LightTabs from './vue-light-tabs.vue'
+  import LightTabs from 'vue-light-tabs'
   ...
   components: {
     LightTabs
