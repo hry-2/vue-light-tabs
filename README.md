@@ -36,5 +36,5 @@
 - Events
 
 |  props   | description  | return |
-|  ----  | ----  | ----  | ----  |
+|  ----  | ----  | ----  |
 | on-change  | click tab event | active tab index  |
