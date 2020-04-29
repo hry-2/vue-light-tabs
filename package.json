@@ -1,0 +1,45 @@
+{
+  "name": "vue-light-tabs",
+  "version": "1.0.0",
+  "description": "vue tabs component",
+  "main": "dist/light-tabs.umd.js",
+  "module": "dist/light-tabs.esm.js",
+  "unpkg": "dist/light-tabs.min.js",
+  "browser": {
+    "./sfc": "src/light-tabs.vue"
+  },
+  "scripts": {
+    "build": "npm run build:umd & npm run build:es & npm run build:unpkg",
+    "build:umd": "rollup --config build/rollup.config.js --format umd --file dist/light-tabs.umd.js",
+    "build:es": "rollup --config build/rollup.config.js --format es --file dist/light-tabs.esm.js",
+    "build:unpkg": "rollup --config build/rollup.config.js --format iife --file dist/light-tabs.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hry-2/vue-light-tabs.git"
+  },
+  "keywords": [
+    "vue",
+    "light",
+    "tabs"
+  ],
+  "author": "hry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hry-2/vue-light-tabs/issues"
+  },
+  "homepage": "https://github.com/hry-2/vue-light-tabs#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "eslint": "^6.8.0",
+    "rollup": "^2.6.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-buble": "^0.19.8",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-uglify": "^6.0.4",
+    "rollup-plugin-vue": "^5.1.6",
+    "vue": "^2.6.11",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
